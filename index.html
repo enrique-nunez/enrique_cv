@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--========== BOX ICONS ==========-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
 
     <!--========== CSS ==========-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Responsive resume cv</title>
+    <title>enrique nunez resume cv</title>
 </head>
 <body>
 <!--========== HEADER ==========-->
 <header class="l-header" id="header">
     <nav class="nav bd-container">
-        <a href="#" class="nav__logo">Enrique Nunez</a>
+        <a href="" class="nav__logo">Enrique Nuñez</a>
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
                 <li class="nav__item">
@@ -24,39 +27,40 @@
                         <i class="bx bx-home nav__icon"></i>Home
                     </a>
                 </li>
-                <li class="nav__item">
-                    <a href="#profile" class="nav__link">
-                        <i class="bx bx-user nav__icon"></i>Profile
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#education" class="nav__link">
-                        <i class="bx bx-book nav__icon"></i>Education
-                    </a>
-                </li>
+
                 <li class="nav__item">
                     <a href="#skills" class="nav__link">
                         <i class="bx bx-receipt nav__icon"></i>Skills
                     </a>
                 </li>
+
                 <li class="nav__item">
-                    <a href="#experience" class="nav__link">
-                        <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                    <a href="#education" class="nav__link">
+                        <i class="bx bx-book nav__icon"></i>Education
                     </a>
                 </li>
-                <li class="nav__item">
-                    <a href="#certificates" class="nav__link">
-                        <i class="bx bx-award nav__icon"></i>Certificates
-                    </a>
-                </li>
+
                 <li class="nav__item">
                     <a href="#references" class="nav__link">
                         <i class="bx bx-link-external nav__icon"></i>References
                     </a>
                 </li>
+
+                <li class="nav__item">
+                    <a href="#profile" class="nav__link">
+                        <i class="bx bx-user nav__icon"></i>Profile
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#experience" class="nav__link">
+                        <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                    </a>
+                </li>
             </ul>
         </div>
-        <div class="nav__toggle" id="nav-toggle">
+
+        <div class="nav__toglle" id="nav-toggle">
             <i class="bx bx-grid-alt"></i>
         </div>
     </nav>
@@ -70,87 +74,307 @@
             <section class="home" id="home">
                 <div class="home__container section bd-grid">
                     <div class="home__data bd-grid">
-                        <img src="assets/img/perfil.jpg" alt="" class="home__img">
-
-                        <h1 class="home__title">Enrique <b>NUNEZ</b></h1>
-                        <h3 class="home__profession">Software Developer</h3>
-
-                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <!-- <img src="assets/img/pefil.jpg" alt="" class="home__img" /> -->
+                       </br>
+                       </br>
+                        <h1 class="home__title">ENRIQUE NUÑEZ</h1>
+                        <h3 class="home__profession">Analista Programador</h3>
                         <div>
-                            <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                            <a
+                                    download=""
+                                    href="assets/pdf/ResumeCv.pdf"
+                                    class="home__button-movil"
+                            >Download</a
+                            >
                         </div>
                     </div>
-
                     <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>Lima - Perú
+                </span>
                         <span class="home__information">
-                            <i class="bx bx-map home__icon"></i> Av 27 de october 513
-                        </span>
+                  <i class="bx bx-envelope home__icon"></i>j.nunez.constantino@gmail.com
+                </span>
                         <span class="home__information">
-                            <i class="bx bx-envelope home__icon"></i> user@gmail.com
-                        </span>
-                        <span class="home__information">
-                            <i class="bx bx-phone home__icon"></i> 947373264
-                        </span>
+                  <i class="bx bx-phone home__icon"></i>947373264
+                </span>
                     </div>
                 </div>
                 <!-- Theme change button -->
+                <i
+                        class="bx bx-moon change-theme"
+                        title="Theme"
+                        id="theme-button"
+                ></i>
 
+                <!-- Button to generate and download the pdf. Available for desktop. -->
+                <i
+                        class="bx bx-download generate-pdf"
+                        title="Generate PDF"
+                        id="resume-button"
+                ></i>
             </section>
 
             <!--========== SOCIAL ==========-->
             <section class="social section">
+                <h2 class="section-title">SOCIAL</h2>
 
+                <div class="social__container bd-grid">
+                    <a
+                            href="https://www.linkedin.com/in/enrique-nunez"
+                            target="_blank"
+                            class="social__link"
+                    >
+                        <i class="bx bxl-linkedin-square social__icon"></i>@enrique-nunez
+                    </a>
+                    <a
+                            href="https://twitter.com/abelsaulmiraval"
+                            target="_blank"
+                            class="social__link"
+                    >
+                        <i class="bx bxl-twitter social__icon"></i>@enrique-nunez
+                    </a>
+                </div>
             </section>
 
-            <!--========== PROFILE ==========-->
-            <section class="profile section" id="profile">
+            <!--========== SKILLS  ==========-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">HABILIDADES</h2>
 
+                <div class="skills__content bd-grid">
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> C#
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> PHP
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> SQL Server
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> MySQL
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Angular
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Vue JS
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Nuxt JS
+                        </li>
+                    </ul>
+
+                    <ul class="skills__data">
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Git
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Azure DevOps
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Linq
+                        </li>
+                        <li class="skills__name">
+                            <span class="skills__circle"></span> Entity Framework
+                        </li>
+                    </ul>
+                </div>
             </section>
 
             <!--========== EDUCATION ==========-->
             <section class="education section" id="education">
+                <h2 class="section-title">EDUCACIÓN</h2>
 
-            </section>
+                <div class="education__container bd-grid">
+                    <div class="education__content">
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <span class="education__line"></span>
+                        </div>
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">
+                                BACHILLER EN INFORMÁTICA Y SISTEMAS
+                            </h3>
+                            <span class="education__studies">
+                    Universidad Nacional Agraria de la Selva
+                  </span>
+                            <span class="education__year">2013 - 2018</span>
+                        </div>
+                    </div>
 
-
-            <!--========== SKILLS  ==========-->
-            <section class="skills section" id="skills">
-
-            </section>
-
-        </div>
-
-        <div class="resume__right">
-            <!--========== EXPERIENCE ==========-->
-            <section class="experience section" id="experience">
-
-            </section>
-
-            <!--========== CERTIFICATES ==========-->
-            <section class="certificate section" id="certificates">
-
+                    <div class="education__content">
+                        <div class="education__time">
+                            <span class="education__rounder"></span>
+                            <!-- <span class="education__line"></span> -->
+                        </div>
+                        <div class="education__data bd-grid">
+                            <h3 class="education__title">INGLES BÁSICO</h3>
+                            <span class="education__studies">
+                    Centro de Idiomas UNAS
+                  </span>
+                            <span class="education__year">2018</span>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--========== REFERENCES ==========-->
             <section class="references section" id="references">
+                <h2 class="section-title">Referencias</h2>
+                <div class="references__container bd-grid">
+                    <div class="references__content bd-grid">
+                <span class="references__subtitle"
+                >Jefe del área de informática - HTM</span
+                >
+                        <h3 class="references__title">Mg. Alex Encarnacion</h3>
+                        <ul class="references__contact">
+                            <li>Celular: 947749064</li>
+                            <li>Email: alexestadisticahtm@gmail.com</li>
+                        </ul>
+                    </div>
 
+                    <div class="references__content bd-grid">
+                <span class="references__subtitle"
+                >Gerente general - Tech Solutions Perú</span
+                >
+                        <h3 class="references__title">Mg. Ronald Ibarra</h3>
+                        <ul class="references__contact">
+                            <li>Celular: 945994581</li>
+                            <li>Email: ronald.ibarra@tsolperu.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="resume__right">
+            <!--========== PROFILE ==========-->
+            <section class="profile section" id="profile">
+                <h2 class="section-title">Perfil</h2>
+                <p class="profile__description">
+                    Bachiller en Ingeniería en Informática y Sistemas, con experiencia
+                    en el desarrollo de soluciones informáticas. Tengo experiencia
+                    trabajando con frameworks como .NET, Laravel, Angular, Vue JS y
+                    gestores de base de datos como MySQL y SQL Server. Apasionado con
+                    la tecnología web, siendo alguien autodidacta y responsable.
+                </p>
             </section>
 
-            <!--========== LANGUAGES ==========-->
-            <section class="languages section">
+            <!--========== EXPERIENCE ==========-->
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Experiencia</h2>
 
-            </section>
+                <div class="experience__container bd-grid">
+                    <div class="experience__content">
+                        <div class="experience__time">
+                            <span class="experience__rounder"></span>
+                            <span class="experience__line"></span>
+                        </div>
 
-            <!--========== INTERESTS ==========-->
-            <section class="interests section">
+                        <div class="experience__data bd-grid">
+                            <h3 class="experience__title">ACIST PERÚ S.A.C</h3>
+                            <span class="experience__company"
+                            >Abril 2020 - Actualidad | Analista programador
+                  </span>
+                            <p class="experience__description">
+                                Construcción del sistema para los proveedores. Mi desempeño
+                                principal fue como desarrollador full-stack con tecnologías
+                                en el frontend Nuxt JS, Vuetify, Element UI y el backend
+                                Laravel 7, y base de datos MySQL, SQL Server, para el
+                                versionamiento de código se uso Git - GitLab.
+                            </p>
+                            <ul>
+                                <li>- Metodología ágil Scrum.</li>
+                                <li>
+                                    - Construcción de los módulos solicitudes de cotización,
+                                    cotizaciones, ordenes de compra, compras y guías.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
+                    <div class="experience__content">
+                        <div class="experience__time">
+                            <span class="experience__rounder"></span>
+                            <span class="experience__line"></span>
+                        </div>
+
+                        <div class="experience__data bd-grid">
+                            <h3 class="experience__title">HOSPITAL DE TINGO MARÍA</h3>
+                            <span class="experience__company"
+                            >Marzo 2020 - Abril 2020 | Analista programador
+                  </span>
+                            <p class="experience__description">
+                                Construcción del sistema de digitalización de hojas
+                                clínicas. Mi desempeño principal fue como desarrollador
+                                full-stack con tecnologías en el frontend Vue JS, Vuetify y
+                                el backend Laravel 6, y base de datos Mysql, para el
+                                versionamiento de código se uso Git - GitHub.
+                            </p>
+                            <ul>
+                                <li>
+                                    - Participar en reuniones del proyecto con el equipo y el
+                                    jefe directo.
+                                </li>
+                                <li>
+                                    - Implementación de los módulos de pacientes,
+                                    digitalización.
+                                </li>
+                                <li>- Reportes con Chart JS.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experience__content">
+                        <div class="experience__time">
+                            <span class="experience__rounder"></span>
+                            <span class="experience__line"></span>
+                        </div>
+
+                        <div class="experience__data bd-grid">
+                            <h3 class="experience__title">TECH SOLUTIONS PERÚ</h3>
+                            <span class="experience__company"
+                            >Agosto 2018 - Febrero 2020 | Desarrollador de software
+                  </span>
+                            <p class="experience__description">
+                                Construcción de módulos para el sistema SIGES. Mi desempeño
+                                principal fue como desarrollador full-stack con tecnologías
+                                en el frontend Angular JS, Bootstrap, y el backend .NET y
+                                base de datos SQL Server, para el versionamiento de código
+                                se uso Git, TFVC - Azure DevOps.
+                            </p>
+                            <ul>
+                                <li>- Metodología ágil Scrum.</li>
+                                <li>
+                                    - Desarrollo del módulo de configuraciones para el sistema
+                                    SIGES.
+                                </li>
+                                <li>
+                                    - Desarrollo de módulos de almacén, ventas y cobros
+                                    masivos, productos, empleados, usuarios.
+                                </li>
+                                <li>- Desarrollo de inventario lógico, físico, Kardex.</li>
+                                <li>
+                                    - Reportes de stock, productos, ventas, compras, deudas y
+                                    pagos a proveedores y clientes. Reportes FOSCOM y ADSOFT.
+                                </li>
+                                <li>- Manejo de cursores con Microsoft SQL Server.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
             </section>
         </div>
     </div>
 </main>
 
 <!--========== SCROLL TOP ==========-->
-
+<a href="#" class="scrolltop" id="scroll-top">
+    <i class="bx-up-arrow-alt scrolltop scrolltop__icon"></i>
+</a>
 
 <!--========== HTML2PDF ==========-->
 <script src="assets/js/html2pdf.bundle.min.js"></script>
